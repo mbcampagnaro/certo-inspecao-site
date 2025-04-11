@@ -6,34 +6,75 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="images/logo.png" type="image/png">
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0 40px;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+    }
+    table th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
 
-  <!-- Cabeçalho centralizado: logo ao lado do título -->
+  <!-- Cabeçalho -->
   <header style="display: flex; justify-content: center; align-items: center; gap: 15px; margin-bottom: 10px;">
     <img src="images/logo.png" alt="Certo Inspeção Veicular" style="height: 60px;">
     <h1 style="margin: 0;">Certo Inspeção Veicular</h1>
   </header>
 
-  <!-- Barra de Navegação -->
+  <!-- Navegação -->
   <nav style="margin-bottom: 30px; background-color: #e8f0fe; padding: 10px 15px; border-radius: 8px; text-align: center;">
     <a href="#servicos" style="margin-right: 12px;">Serviços</a>
-    <a href="#contato" style="margin-right: 12px;">Contato</a>
-    <a href="valores.html">Valores</a>
+    <a href="#valores" style="margin-right: 12px;">Valores</a>
+    <a href="#contato">Contato</a>
   </nav>
 
   <p>Inspeção segura e confiável para regularizar seu veículo com precisão e agilidade.</p>
 
+  <!-- Seção: Serviços -->
   <h2 id="servicos">Nossos Serviços</h2>
-  <p>Na Certo Inspeção Veicular, somos acreditados pelo Inmetro e autorizados a realizar inspeções técnicas conforme exigências legais e normas de segurança. Prestamos os seguintes serviços:</p>
+  <p>Somos acreditados pelo Inmetro e autorizados a realizar inspeções conforme exigências legais e normas de segurança:</p>
   <ul>
-    <li><strong>Inspeção de Segurança Veicular (ISV):</strong> Verificação obrigatória para veículos modificados, transformados ou recuperados, assegurando que atendam aos requisitos técnicos e de segurança estabelecidos pelo Contran.</li>
-    <li><strong>Inspeção para Veículos com GNV:</strong> Avaliação técnica e emissão de laudo para veículos convertidos para Gás Natural Veicular, conforme regulamentação do Inmetro.</li>
-    <li><strong>Inspeção para Regularização de Veículos Sinistrados (REC):</strong> Verificação de itens de segurança e estrutura veicular para veículos classificados como recuperáveis, exigida para retorno à circulação.</li>
-    <li><strong>Inspeção para Transporte Escolar e Coletivo:</strong> Avaliação periódica obrigatória para veículos que prestam serviços de transporte de passageiros, garantindo segurança e conformidade.</li>
-    <li><strong>Inspeção para Modificação de Características (Transformações):</strong> Avaliação técnica para veículos que sofreram alterações estruturais ou funcionais, como mudança de categoria, tipo de carroceria, entre outros.</li>
+    <li><strong>ISV:</strong> Segurança Veicular para modificações e recuperações.</li>
+    <li><strong>GNV:</strong> Avaliação técnica para veículos convertidos.</li>
+    <li><strong>REC:</strong> Regularização de veículos sinistrados.</li>
+    <li><strong>Transporte Escolar e Coletivo:</strong> Avaliação periódica obrigatória.</li>
+    <li><strong>Transformações:</strong> Modificação de características veiculares.</li>
   </ul>
 
+  <!-- Seção: Valores -->
+  <h2 id="valores">Valores dos Serviços</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Serviço</th>
+        <th>Valor (R$)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Sinistro</td><td>800,00</td></tr>
+      <tr><td>Alteração de característica</td><td>1.100,00</td></tr>
+      <tr><td>ANTT</td><td>800,00</td></tr>
+      <tr><td>DETER</td><td>700,00</td></tr>
+      <tr><td>Prefeitura</td><td>500,00</td></tr>
+      <tr><td>Laudo Seguradora</td><td>500,00</td></tr>
+      <tr><td>Laudo de Segurança Veicular</td><td>600,00</td></tr>
+      <tr><td>Teste de emissões de poluentes (análise de gases)</td><td>400,00</td></tr>
+      <tr><td>Teste de opacidade</td><td>600,00</td></tr>
+      <tr><td>Teste de ruído</td><td>400,00</td></tr>
+    </tbody>
+  </table>
+
+  <!-- Seção: Contato -->
   <h2 id="contato">Entre em contato</h2>
   <ul>
     <li><a href="https://wa.me/5554996884593" target="_blank">WhatsApp: (54) 99688-4593</a></li>
@@ -41,12 +82,6 @@
     <li><a href="mailto:financeiro@certoinspecao.com.br">E-mail financeiro: financeiro@certoinspecao.com.br</a></li>
     <li><a href="https://maps.app.goo.gl/qnhKj7CCn2YRHzzJ6" target="_blank">Localização</a></li>
   </ul>
-
-  <div style="text-align: center; margin: 40px 0;">
-    <a href="valores.html" style="display: inline-block; background-color: #005bbb; color: #fff; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold;">
-      Confira os Valores dos Serviços
-    </a>
-  </div>
 
 </body>
 </html>
